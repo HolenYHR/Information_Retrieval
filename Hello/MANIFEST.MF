@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: lib/lucene-core-7.3.0.jar lib/lucene-demo-7.3.0.jar lib/lucene-analyzers-common-7.3.0.jar lib/lucene-queryparser-7.3.0.jar lib/mysql-connector-java-5.1.39-bin.jar lib/lucene-analyzers-smartcn-7.3.0.jar lib/lucene-highlighter-7.3.0.jar lib/lucene-memory-7.3.0.jar       
+Main-Class: test.Searcher 

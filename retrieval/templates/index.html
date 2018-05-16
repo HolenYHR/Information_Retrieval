@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    
+    
+    top:  150px;
+    position: relative;
+}
+
+input[type=submit]{
+	top:  150px;
+    position: relative;
+    
+    
+   
+    
+    font-size: 18px;
+    background-color:dodgerblue;
+   
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    text-align: left;
+}
+
+input[type=text]:focus {
+    width: 50%;
+}
+</style>
+</head>
+<body>
+
+
+<form style="text-align:center;"  method="POST">
+  <input type="text" name="search" placeholder="Search..">
+  <input type="submit" name="find",value="Find">
+</form>
+
+</body>
+</html>
