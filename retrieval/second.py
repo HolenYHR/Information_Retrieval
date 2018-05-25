@@ -12,7 +12,7 @@ class PoemSpider(scrapy.Spider):
     start_urls=['https://www.gushiwen.org/']
     def __init__(self):
         self.count=1
-        self.conn=pymysql.connect("101.76.204.9","haoran","yanghaoran2015","poem",use_unicode=True, charset="utf8",port=3306)
+        self.conn=pymysql.connect("ip","username","password","poem",use_unicode=True, charset="utf8",port=3306)
         self.cursor = self.conn.cursor()
     def parse(self,response):
 
