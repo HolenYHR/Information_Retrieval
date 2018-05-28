@@ -28,11 +28,11 @@ public class Indexer {
 	
 	// JDBC 驱动名及数据库 URL
 	  static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
-	  static final String DB_URL = "jdbc:mysql://101.76.204.9:3306/poem";
+	  static final String DB_URL = "jdbc:mysql://ip:3306/poem";
 	 
 	  // 数据库的用户名与密码，需要根据自己的设置
-	  static final String USER = "haoran";
-	  static final String PASS = "yanghaoran2015";
+	  static final String USER = "xxxx";
+	  static final String PASS = "xxxx";
 	
 	
 	
